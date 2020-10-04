@@ -59,5 +59,20 @@ export const Subtitle = styled.p`
     margin-bottom:35px;
     font-size:18px;
     line-height:24px;
-    color: ${({lightTextDosc})=> (lightTextDosc ? '#a9b3c1' : '#1c2237')}
+    color: ${({lightTextDosc})=> (lightTextDosc ? '#a9b3c1' : '#1c2237')};
+`
+
+export const ImgWrapper = styled.div`
+    max-width:555px;
+    display:flex;
+    justify-content:${({start})=>(start ? 'flex-start' : 'flex-end')};
+`
+
+export const Img = styled.img`
+    padding-right:0;
+    border:0;
+    max-width:100%;
+    vertical-align:middle;
+    display:inline-block;
+    max-height:500px;
 `

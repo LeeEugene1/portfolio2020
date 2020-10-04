@@ -42,7 +42,7 @@ const Navbar = () => {
                 <Nav>
                     <NavbarContainer>
                         {/* 라우터 links to = "~" */}
-                        <NavLogo to="/">
+                        <NavLogo to="/" onClick={handleClick} click={click}>
                             <NavIcon />
                                 Dubaiyu
                         </NavLogo>

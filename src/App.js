@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { GlobalStyle } from './globalStyles';
 //Home
 import Home from './pages/HomePage/Home'
-//Service
+//Services
 import Products from './pages/Products/Products'
 
 
